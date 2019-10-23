@@ -1,0 +1,84 @@
+/*@import url('https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro');*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root {
+    --cll-red: #FF0600;
+    --cll-sky: #CCF0FF;
+    --cll-blue: #31268F;
+    --cll-light-blue: #4A36DE;
+    --cll-grey: #E8E8E8;
+    --cll-dark-blue: #1A1348;
+    --cll-navy: #141133;
+    --cll-white: #FFFFFF;
+    --cll-black: #000000
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-red {
+    background-color: var(--cll-red);
+    color: var(--cll-white);
+}
+
+.bg-sky {
+    background-color: var(--cll-sky);
+    color: var(--cll-black);
+}
+
+.bg-blue {
+    background-color: var(--cll-blue);
+    color: var(--cll-white);
+}
+
+.bg-light-blue {
+    background-color: var(--cll-light-blue);
+    color: var(--cll-white);
+}
+
+.bg-grey {
+    background-color: var(--cll-grey);
+    color: var(--cll-black);
+}
+
+.bg-dark-blue {
+    background-color: var(--cll-dark-blue);
+    color: var(--cll-white);
+}
+
+.bg-navy {
+    background-color: var(--cll-navy);
+    color: var(--cll-white);
+}
+
+.bg-white {
+    background-color: var(--cll-white);
+    color: var(--cll-black);
+}
+
+.btn-danger {
+    background-color: var(--cll-red);
+}
+
+div {
+    padding: 10px;
+    border-radius: unset;
+}
+
+.card-icon {
+    font-size: 300%;
+}
+
+.card-title {
+    font-weight: bolder;
+    color: var(--cll-dark-blue);
+}
+
+.header {
+    height: 400px;
+}
+
+.txt-blue {
+    color: var(--cll-blue);
+}
